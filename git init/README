@@ -1,0 +1,6 @@
+1	package com.goldsand.collaboration.connection;
+2	
+3	public interface ConnectionListListener {
+4	    public void onNewConnection(String thread, String remoteIp);
+5	    public void onRemoveConnection(String thread);
+6	}
